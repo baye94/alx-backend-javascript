@@ -1,6 +1,7 @@
+// returns a resolved promise
 export default function signUpUser(firstName, lastName) {
-    const promise = new Promise((resolve) => {
-      resolve({ firstName, lastName });
-    });
-    return promise;
-  }
+  return Promise.resolve({
+    firstName,
+    lastName,
+  });
+}
