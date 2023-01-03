@@ -4,4 +4,4 @@ export default function getListStudents() {
     students.push({ id: 2, firstName: 'James', location: 'Columbia' });
     students.push({ id: 5, firstName: 'Serena', location: 'San Francisco' });
     return (students);
-   }
+  }
